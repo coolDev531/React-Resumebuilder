@@ -1,9 +1,8 @@
 {
   "name": "resume-builder",
   "version": "0.1.0",
-  "homepage":"http://bipinmv.github.io/resume-builder",
-  "private": true,
   "homepage": "http://bipinmv.github.io/resume-builder",
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
