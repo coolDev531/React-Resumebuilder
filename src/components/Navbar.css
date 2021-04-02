@@ -1,0 +1,14 @@
+a, a:active, a:visited, a:hover, a:link{
+    text-decoration: none;
+}
+.brand {
+	color: #0267f5;
+	font-size: 1.9rem;
+}
+.blue-active {
+	border-bottom: 4px solid #0267f5;
+}
+.navbar-brand .nav-link{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
