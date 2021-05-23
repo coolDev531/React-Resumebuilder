@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
+    height: 90vh;
 }
 .resume-image{
     position: absolute;
@@ -65,7 +66,7 @@
     font-weight: 700;
 }
 .section-2{
-    margin-top: 280px;
+    /* margin-top: 280px; */
     background-color: #fff;
     padding-bottom: 3rem;
 }
