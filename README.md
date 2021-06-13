@@ -1,5 +1,4 @@
 # resume-builder
-check the website here https://bipinmv.github.io/resume-builder/
 
 # Getting Started with Create React App
 
