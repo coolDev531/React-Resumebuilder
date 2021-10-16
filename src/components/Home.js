@@ -22,20 +22,21 @@ export default function Home() {
                         </Link>
                     </div>
                 </div>
-                <div className="section-2">
-                    <p className="d-flex justify-content-center">Where are they getting hired?</p>
-                    <div className="companies container mb-4">
-                        <img src={process.env.PUBLIC_URL + '/assets/BBC-logo.png'} className="company-logo-1" alt=""></img>
-                        <img src={process.env.PUBLIC_URL + '/assets/airbnb-logo.png'} className="company-logo-1" alt=""></img>
-                        <img src={process.env.PUBLIC_URL + '/assets/apple-logo.svg'} className="company-logo-3" alt=""></img>
-                        <img src={process.env.PUBLIC_URL + '/assets/google-logo.png'} className="company-logo-1" alt=""></img>
-                        <img src={process.env.PUBLIC_URL + '/assets/tesla-logo1.png'} className="company-logo-5" alt=""></img>
-                    </div>
-                    <div className="d-flex justify-content-center">
-                        <Button size="lg" variant="" className="upgrad-btn mt-4">Upgrad Your resume</Button>
-                    </div>
+            </div>
+            <div className="section-2">
+                <p className="d-flex justify-content-center">Where are they getting hired?</p>
+                <div className="companies container mb-4">
+                    <img src={process.env.PUBLIC_URL + '/assets/BBC-logo.png'} className="company-logo-1 p-1" alt=""></img>
+                    <img src={process.env.PUBLIC_URL + '/assets/airbnb-logo.png'} className="company-logo-1 p-1" alt=""></img>
+                    <img src={process.env.PUBLIC_URL + '/assets/apple-logo.svg'} className="company-logo-3  p-1" alt=""></img>
+                    <img src={process.env.PUBLIC_URL + '/assets/google-logo.png'} className="company-logo-1  p-1" alt=""></img>
+                    <img src={process.env.PUBLIC_URL + '/assets/tesla-logo1.png'} className="company-logo-5  p-1" alt=""></img>
+                </div>
+                <div className="d-flex justify-content-center">
+                    <Button size="lg" variant="" className="upgrad-btn mt-4">Upgrad Your resume</Button>
                 </div>
             </div>
+
             <Footer />
         </>
     )

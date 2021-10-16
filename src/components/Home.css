@@ -1,12 +1,18 @@
 .home-container{
     background-color: #f2f5fa;
-    padding: 80px 20px 0 20px;
+    padding: 20px;
 }
+
+.navbar-brand {
+    margin-right: 0 !important;
+}
+
 .section-1{
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
     height: 90vh;
+    align-items: center;
 }
 .resume-image{
     position: absolute;
@@ -18,7 +24,7 @@
 .resume-image-1{
     /* background-image: url("../assets/resume-image-1.jpg"); */
     height: 425px;
-    width: 22.8%;
+    width: 20.8%;
     left: 16.3%;
     top: 22.3%;
     transform: rotate(-22.2deg);
@@ -27,7 +33,7 @@
 .resume-image-2{
     /* background-image: url("../assets/resume-image-2.jpg"); */
     height: 425px;
-    width: 22.8%;
+    width: 20.8%;
     left: 22.3%;
     top: 19.5%;
     transform: rotate(-4.51deg);
@@ -36,7 +42,7 @@
 .resume-image-3{
     /* background-image: url("../assets/resume-image-3.jpg"); */
     height: 425px;
-    width: 22.8%;
+    width: 20.8%;
     left: 28.9%;
     top: 28.9%;
     transform: rotate(9.87deg);
@@ -121,7 +127,7 @@
         height: 185px;
         width: 42.8%;
         left: 26.3%;
-        top: 11.5%;
+        top: 13.5%;
         transform: rotate(-4.51deg);
         background-repeat: no-repeat;
     }
@@ -149,7 +155,7 @@
 @media (min-width: 400px) and (max-width: 800px) {
     .resume-image-1{
         height: 185px;
-        width: 37.8%;
+        width: 32.8%;
         left: 20.3%;
         top: 14.3%;
         transform: rotate(-22.2deg);
@@ -157,7 +163,7 @@
     }
     .resume-image-2{
         height: 185px;
-        width: 37.8%;
+        width: 32.8%;
         left: 26.3%;
         top: 11.5%;
         transform: rotate(-4.51deg);
@@ -165,7 +171,7 @@
     }
     .resume-image-3{
         height: 185px;
-        width: 37.8%;
+        width: 32.8%;
         left: 36.9%;
         top: 17.9%;
         transform: rotate(9.87deg);
@@ -187,7 +193,7 @@
 @media (min-width: 800px) and (max-width: 1060px) {
     .resume-image-1{
         height: 235px;
-        width:28.8%;
+        width:25.8%;
         left: 20.3%;
         top: 14.3%;
         transform: rotate(-22.2deg);
@@ -195,7 +201,7 @@
     }
     .resume-image-2{
         height: 235px;
-        width: 28.8%;
+        width: 25.8%;
         left: 26.3%;
         top: 11.5%;
         transform: rotate(-4.51deg);
@@ -203,7 +209,7 @@
     }
     .resume-image-3{
         height: 235px;
-        width: 28.8%;
+        width: 25.8%;
         left: 36.9%;
         top: 17.9%;
         transform: rotate(9.87deg);

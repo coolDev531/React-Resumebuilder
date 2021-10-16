@@ -10,12 +10,12 @@ export default function RBNavbar() {
     return (
         <>
             <Navbar collapseOnSelect expand="lg" variant="light" sticky="top" className="bg-light">
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Brand >
                     <Nav.Link as={NavLink} to="/">
                         <span className="brand">Resume <strong className="">Builder</strong></span>
                     </Nav.Link>
                 </Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
                         <Nav.Link>Resume Templates</Nav.Link>
@@ -29,7 +29,7 @@ export default function RBNavbar() {
                             }}
                             activeClassName="text-dark blue-active">
                             Create Resume
-						</Nav.Link>
+                        </Nav.Link>
                         <Nav.Link>
                             <Button size="sm" variant="outline-primary" >Sign Up</Button>
                         </Nav.Link>
